@@ -208,12 +208,12 @@ bindings = <
 
 layer_Nav {
 bindings = <
-&none  &none         &none         &none             &none                                                                      &none          &none       &none          &none   &none
-&none  &none         &none         &none             &none             &none                                            &none   &none          &none       &none          &none   &none
-&none  &none         &none         &none             &none             &none                                            &none   &kp HOME       &kp UP      &kp END        &none   &none
-&none  &kp LG(LBKT)  &kp LG(RBKT)  &kp LS(LG(LBKT))  &kp LS(LG(RBKT))  &none                                            &none   &kp LEFT       &kp DOWN    &kp RIGHT      &none   &none
-&none  &none         &none         &none             &none             &none  &none  &none  &none  &none  &none  &none  &none   &kp LA(LEFT)   &kp LSHIFT  &kp LA(RIGHT)  &none   &none
-&none  &trans        &trans        &trans            &trans                   &none  &none  &none  &none  &none  &none          &trans         &trans      &trans         &trans  &none
+&none  &none         &none         &none             &none                                                                            &none          &none       &none          &none   &none
+&none  &none         &none         &none             &none             &none                                                  &none   &none          &none       &none          &none   &none
+&none  &none         &none         &none             &none             &none                                                  &none   &kp HOME       &kp UP      &kp END        &none   &none
+&none  &kp LG(LBKT)  &kp LG(RBKT)  &kp LS(LG(LBKT))  &kp LS(LG(RBKT))  &none                                                  &none   &kp LEFT       &kp DOWN    &kp RIGHT      &none   &none
+&none  &none         &none         &none             &none             &none  &none  &none  &none  &none  &LAYER_Base  &none  &none   &kp LA(LEFT)   &kp LSHIFT  &kp LA(RIGHT)  &none   &none
+&none  &trans        &trans        &trans            &trans                   &none  &none  &none  &none  &none        &none          &trans         &trans      &trans         &trans  &none
 >;
 };
 

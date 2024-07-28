@@ -24,7 +24,7 @@
         // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to
         lower: lower {
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYER_TAP_DANCE";
+            label = "LOWER_LAYER_TAP_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mo LAYER_Lower>, <&to LAYER_Lower>;
@@ -33,7 +33,7 @@
         // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to
         nav: nav {
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYER_TAP_DANCE";
+            label = "NAV_LAYER_TAP_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mo LAYER_Nav>, <&to LAYER_Nav>;

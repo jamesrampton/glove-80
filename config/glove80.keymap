@@ -181,7 +181,7 @@ bindings = <
 &none      &kp Q         &kp Y         &kp O       &kp U     &kp X                                                                                  &kp G     &kp C     &kp M     &kp N      &kp Z   &kp HOME
 &kp TAB      &kp H         &kp I         &kp E       &kp A  &kp FSLH                                                                                  &kp D     &kp S     &kp T     &kp R      &kp B    &kp END
 &kp LS(TAB)      &kp J  &comma_morph    &dot_morph       &kp K   &kp MINUS  &lower  &kp LC(LA(LSHFT))  &kp LG(SPC)  &kp ESC   &nav  &skq LSHFT  &kp W     &kp F     &kp L     &kp P      &kp V  &kp PG_UP
-&magic LAYER_Magic 0  &kp LSHFT      &kp LCTL      &kp LALT    &kp LGUI     &kp RET  &mo LAYER_Sym   &kp LC(C)  &kp DEL  &kp BSPC      &kp SPC         &kp LGUI  &kp LALT  &kp LCTL  &kp LSHFT  &kp PG_DN
+&magic LAYER_Magic 0  &kp LSHFT      &kp LCTL      &kp LALT    &kp LGUI     &kp RET  &mo LAYER_Sym   &none  &kp DEL  &kp BSPC      &kp SPC         &kp LGUI  &kp LALT  &kp LCTL  &kp LSHFT  &kp PG_DN
 >;
 };
 
@@ -192,7 +192,7 @@ bindings = <
 &none      &kp B         &kp L         &kp D       &kp W     &kp Z                                                                                  &kp FSLH  &kp F     &kp O     &kp U      &kp J   &kp HOME
 &kp TAB    &kp N         &kp R         &kp T       &kp S     &kp G                                                                                  &kp Y     &kp H     &kp A     &kp E      &kp I   &kp END
 &kp LS(TAB)  &kp Q       &kp X         &kp M       &kp C     &kp V       &lower  &kp LC(LA(LSHFT))  &kp LG(SPC)  &kp ESC   &nav  &skq LSHFT  &kp K     &kp P     &comma_morph    &dot_morph    &kp MINUS     &kp PG_UP
-&magic LAYER_Magic 0  &kp LSHFT      &kp LCTL      &kp LALT    &kp LGUI     &kp RET  &mo LAYER_Sym   &kp LC(C)  &kp DEL  &kp BSPC      &kp SPC         &kp LGUI  &kp LALT  &kp LCTL  &kp LSHFT  &kp PG_DN
+&magic LAYER_Magic 0  &kp LSHFT      &kp LCTL      &kp LALT    &kp LGUI     &kp RET  &mo LAYER_Sym   &none  &kp DEL  &kp BSPC      &kp SPC         &kp LGUI  &kp LALT  &kp LCTL  &kp LSHFT  &kp PG_DN
 >;
 };
 

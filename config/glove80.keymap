@@ -176,10 +176,10 @@ compatible = "zmk,keymap";
 
 layer_Base {
 bindings = <
-&none   &kp C_PP  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE                                                                                                &kp F14   &kp F15     &none      &none      &to LAYER_Graphite
-&none      &kp N1        &kp N2        &kp N3      &kp N4    &kp N5                                                                             &kp N6    &kp N7    &kp N8    &kp N9     &kp N0     &none
-&none      &kp Q         &kp Y         &kp O       &kp U     &kp X                                                                              &kp G     &kp C     &kp M     &kp N      &kp Z   &none
-&kp TAB  &mt LSHFT H  &mt LCTL I  &mt LALT E  &mt LGUI A   &kp FSLH                                                                            &kp D     &mt RGUI S &mt RALT T  &mt RCTL R  &mt RSHFT B    &none
+&none   &kp C_PP  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE                                                                                                    &kp F14   &kp F15     &none      &none      &to LAYER_Graphite
+&none      &kp N1        &kp N2        &kp N3      &kp N4    &kp N5                                                                                 &kp N6    &kp N7    &kp N8    &kp N9     &kp N0     &none
+&none      &kp Q         &kp Y         &kp O       &kp U     &kp X                                                                                  &kp G     &kp C     &kp M     &kp N      &kp Z   &none
+&kp TAB      &kp H         &kp I         &kp E       &kp A  &kp FSLH                                                                                  &kp D     &kp S     &kp T     &kp R      &kp B    &none
 &kp LS(TAB)      &kp J  &comma_morph    &dot_morph       &kp K   &kp MINUS  &lower  &kp LC(LA(LSHFT))  &kp LG(SPC)  &kp ESC   &nav  &skq LSHFT  &kp W     &kp F     &kp L     &kp P      &kp V  &none
 &magic LAYER_Magic 0  &kp LSHFT      &kp LCTL      &kp LALT    &kp LGUI     &kp RET  &mo LAYER_Sym   &none  &kp DEL  &kp BSPC      &kp SPC         &kp LGUI  &kp LALT  &kp LCTL  &kp LSHFT  &none
 >;

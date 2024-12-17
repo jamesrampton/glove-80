@@ -181,7 +181,7 @@ bindings = <
 &none      &kp Q         &kp Y         &kp O       &kp U     &kp X                                                                                  &kp G     &kp C     &kp M     &kp N      &kp Z   &none
 &kp TAB      &kp H         &kp I         &kp E       &kp A  &kp FSLH                                                                                  &kp D     &kp S     &kp T     &kp R      &kp B    &none
 &kp LS(TAB)      &kp J  &comma_morph    &dot_morph       &kp K   &kp MINUS  &lower  &kp LC(LA(LSHFT))  &kp LG(SPC)  &kp ESC   &nav  &skq LSHFT  &kp W     &kp F     &kp L     &kp P      &kp V  &none
-&magic LAYER_Magic 0  &kp LSHFT      &kp LCTL      &kp LALT    &kp LGUI     &kp RET  &mo LAYER_Sym   &none  &kp DEL  &kp BSPC      &kp SPC         &kp LGUI  &kp LALT  &kp LCTL  &kp LSHFT  &none
+&magic LAYER_Magic 0  &mt LSHFT LT    &mt LCTL LBKT   &mt LALT LBRC   &mt LGUI LPAR     &kp RET  &mo LAYER_Sym   &none  &kp DEL  &kp BSPC      &kp SPC  &mt RGUI RPAR  &mt RALT RBRC  &mt RCTL RBKT  &mt RSHFT GT  &none
 >;
 };
 
